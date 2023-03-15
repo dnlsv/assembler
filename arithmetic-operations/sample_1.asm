@@ -1,4 +1,3 @@
- 
 ;a^2/(b+2c)+(8b-a)+ab/(4c-1)
 
 org 100h
@@ -41,4 +40,5 @@ main proc far
 int 21h
 main endp
 
-ret                                                           
+ret
+                                                          

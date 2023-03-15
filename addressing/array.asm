@@ -1,4 +1,3 @@
-
 org 100h
 
 .model small
@@ -10,11 +9,11 @@ n dw 9
 ;num dw ?
 .code
 main proc far
-        mov ax,@data
-        mov ds,ax
-        mov ah,09h ;output message
-        mov dx,offset message
-        int 21h
+    mov ax,@data
+    mov ds,ax
+    mov ah,09h ;output message
+    mov dx,offset message
+    int 21h
     mov si,0  
     ;mov num,0
     begin:
